@@ -30,3 +30,11 @@ li a:hover {
 .bodycolor {
 	background-color: #ddd;
 }
+
+.important {
+	color: #0e99b2
+}
+
+.normal {
+	font-size: 120%;
+}
