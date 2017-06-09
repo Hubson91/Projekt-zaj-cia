@@ -56,7 +56,16 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-.karta{
+.karta_left {
+    display: inline-block;
+    float: left;
+    padding: 5% 5%;
+    width: 30%
+
+
+}
+
+.karta_center{
     display: inline-block;
     float: center;
     padding: 5% 5%;
@@ -64,6 +73,27 @@ a:active {
 
 
 }
+
+.karta_right{
+    display: inline-block;
+    float: right;
+    padding: 5% 5%;
+    width: 30%
+
+
+}
+
+.dupa {
+    width: 100%;
+    padding-bottom: 20px
+}
+
+.dupa2 {
+    width: 100%;
+    height: 10%;
+    padding-bottom: 20px;
+}
+
 .karta img {
     width: 100%
 }
@@ -73,7 +103,7 @@ a:active {
 
 
 .news {
-    display: block; text-align: center; float: center; padding: 20px 20px 20px 20px
+    display: block; text-align: center; float: center; padding: 20px 20px 20px 20px;
 }
 
 
@@ -90,6 +120,17 @@ a:active {
     display: inline-block;
     font-size: 16px;
     float: right; 
+} 
+
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 } 
 
 
