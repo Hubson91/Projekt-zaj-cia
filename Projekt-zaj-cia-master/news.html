@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-	<title>Contact us</title>
+	<title>News</title>
 	<meta charset="utf-8">
 </head>
 <body class="bodycolor">
@@ -27,54 +27,22 @@
 
 <ul>
   <li><a href="home.html">Strona Główna</a></li>
-  <li><a href="news.html">Wiadomości</a></li>
-  <li><a class="active" href="contact.html">Kontakt</a></li>
+  <li><a class="active" href="news.html">Wiadomości</a></li>
+  <li><a href="contact.html">Kontakt</a></li>
   <li><a href="about.html">O Nas</a></li>
 </ul>
 
 
 
 <!--                      Main Body                      -->
-<div style="padding-left: 5px">
 
-
-
-
-<div class="normal" style="width: 30%; float: left;">
-  <h3>Kontakt:</h3><h5>Nasi konsultanci są dostępni do twojej dyspozycji w godzinach 8:00-20:00</h5>
-    <p class="important">Telefon: +48 693 138 227 / +48 722 831 396 </p>
-    <p class="important">e-mail: <a href="mailto:firma@firma.com" class="important">firma@firma.com</a></p>
-    
-  <h3>Adres:</h3>
-    <p class="important">Świętojańska 54 Gdynia</p>
+<div class="news">
+  <p>newsy w hdaw dwdhpawihdpwhdwahduhdiua hiwdhiuwhawiuhdiuawh dhaiwhdiawuhiuapwi i ahiuawhduahwiudh iw aiuiu hiwu hdiuw aiuh iu ai hiu hwiud hiuawhiwuhdiuwhd iuwaiu wiauw h aiuiuh</p>
+  <p id="show_content" onclick="show_news()"">Czytaj dalej.</p>
 
 </div>
 
 
-<!--                      Map                      -->
-
-<div id="map" style="width:70%;height:400px; float: right;"></div>
-
-<script>
-function myMap() {
-  var myCenter = new google.maps.LatLng(54.516311,18.540987);
-
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 14};
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({position:myCenter});
-  marker.setMap(map);
-
-  var infowindow = new google.maps.InfoWindow({
-    content: "Tu Nas Znajdziesz!"
-  });
-  infowindow.open(map,marker);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiOqxuQzPr72RKYC1zvu2ENOE2a7iCoVc&callback=myMap"></script>
-
-<!--                       Map End                     -->
 
 
 
@@ -91,8 +59,12 @@ function myMap() {
 
 
 
-</div>
+
 <!--                      Scripts                       -->
+
+<script type="text/javascript" src="scripts.js"></script>
+
+
 
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
